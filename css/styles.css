@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+header {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+.logo {
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 3%;
+        vertical-align: middle;
+        text-transform: uppercase;
+        color: #2E2F42;
+}
+.logo span {
+  color: #4D5AE5;
+}
+
+
+nav a {
+    
+        font-weight: 500;
+        font-style: Medium;
+        color: #2E2F42;
+}
+nav a:hover, nav a:focus {
+    color: #404BBF;
+}
+address a {
+
+        color: #434455;
+}
+address a:hover, address a:focus {
+    color: #404BBF;
+}
+
+.h1-section {
+    background-color: #2E2F42;
+}
+h1 {
+        font-size: 56px;
+        line-height: 60px;
+
+        text-align: center;
+        color: #FFFFFF;
+}

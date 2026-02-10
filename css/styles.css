@@ -1,8 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 ul {
@@ -13,23 +13,16 @@ a {
     font-style: normal;
 }
 
-header {
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-}
 .logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
-        letter-spacing: 3%;
-        vertical-align: middle;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
 }
-.logo span {
+.blue-span {
   color: #4D5AE5;
 }
 
@@ -37,7 +30,6 @@ header {
 nav a {
     
         font-weight: 500;
-        font-style: Medium;
         color: #2E2F42;
 }
 nav a:hover, nav a:focus {
@@ -51,13 +43,52 @@ address a:hover, address a:focus {
     color: #404BBF;
 }
 
-.h1-section {
+.hero {
     background-color: #2E2F42;
 }
 h1 {
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
 
         text-align: center;
         color: #FFFFFF;
+}
+.btn {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.btn:hover, btn:focus {
+    background-color: #404BBF;
+}
+h2 {
+     font-weight: 700;
+     font-size: 36px ;
+     color: #2E2F42;
+}
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+.h2-center {
+    text-align: center;
+}
+.workers h3, .workers p {
+    text-align: center;
+}
+footer {
+    background-color: #2E2F42;
+}
+.footer-logo-span-white {
+    color: #FFFFFF;
+}
+.section-team {
+    background-color: #F4F4FD;
+}
+.section-team .workers li {
+    background-color: #FFFFFF;
+}
+footer p {
+    color: #F4F4FD;
 }

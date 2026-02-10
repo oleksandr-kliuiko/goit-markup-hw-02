@@ -18,7 +18,7 @@ a {
     font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2E2F42;
@@ -50,7 +50,7 @@ address a:hover, address a:focus {
 h1 {
         font-size: 56px;
         line-height: 1.07;
-
+        letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
 }
@@ -78,6 +78,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.2;
 }
 
 .workers h3, .workers p {

@@ -45,7 +45,7 @@ a {
 .hero {
     background-color: #2E2F42;
 }
-.h1 {
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -64,14 +64,14 @@ a {
 .btn:hover, .btn:focus {
     background-color: #404BBF;
 }
-.h2 {
+.section-title {
      font-weight: 700;
      font-size: 36px ;
      color: #2E2F42;
      letter-spacing: 0.02em;
      line-height: 1.11;
 }
-.h2-center {
+.section-title-center {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -79,14 +79,14 @@ a {
     letter-spacing: 0.02em;
     line-height: 1.11;
 }
-.h3 {
+.sub-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;
 }
-.h3-center {
+.sub-title-center {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
